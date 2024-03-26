@@ -1,0 +1,23 @@
+.section-three {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(233, 110, 39)
+}
+
+.three-input {
+    padding: 10px;
+    margin-top: 1rem;
+    background-color: red;
+    border: none;
+    color: white;
+}
+
+.three-output {
+    padding: 10px;
+    margin-top: 1rem;
+    background-color: rgb(238, 189, 189);
+    border: none;
+    color: rgb(0, 0, 0);
+}

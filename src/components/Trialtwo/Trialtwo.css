@@ -1,0 +1,7 @@
+.section-two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(233, 110, 39)
+}

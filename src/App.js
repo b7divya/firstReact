@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React, {useState} from 'react'
+import Trialone from './components/Trialone/Trialone'
+import Trialtwo from './components/Trialtwo/Trialtwo';
+import Trialthreecubes from './components/Trialthreecubes/Trialthreecubes';
+import Trialfour from './components/TrialfourSquare/TrialfourSquare';
+import TrialfourSquare from './components/TrialfourSquare/TrialfourSquare';
+import TrialFiveString from './components/TrialFiveString/TrialFiveString';
+import TrialSix from './components/TrialSix/TrialSix';
+import TrialSeven from './components/TrialSeven/TrialSeven';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
 
+    
+
+  return (
+    <div>
+    <Trialone />
+    <Trialtwo  />
+    <Trialthreecubes />
+    <TrialfourSquare />
+    <TrialFiveString />
+    <TrialSix />
+    <TrialSeven />
+    </div>
+    );
+  }
+  
 export default App;
